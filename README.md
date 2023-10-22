@@ -33,3 +33,7 @@ sudo apt-get purge apache2
 sudo apt-get install apache2
 
 service apache2 start
+
+# If you are getting certbot ssl error;
+
+sudo certbot delete --cert-name example.com
