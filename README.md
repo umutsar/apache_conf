@@ -23,3 +23,11 @@ sudo certbot certonly --webroot -w /var/www/example.com -d example.com -d www.ex
 sudo a2ensite example.com.conf
 
 sudo systemctl restart apache2
+
+# !!! If you have errors and you can't solve them, execute below steps:
+
+sudo apt-get -o DPkg::Options::="--force-confmiss" --reinstall install apache2
+
+sudo apt-get purge apache2
+
+sudo apt-get install apache2
