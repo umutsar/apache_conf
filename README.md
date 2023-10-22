@@ -24,7 +24,7 @@
 
 *sudo systemctl restart apache2
 
-# !!! If you have errors and you can't solve them, execute below steps:
+# ! If you've errors and you can't solve them, execute below steps:
 
 *sudo apt-get -o DPkg::Options::="--force-confmiss" --reinstall install apache2
 
