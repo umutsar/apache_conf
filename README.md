@@ -31,3 +31,5 @@ sudo apt-get -o DPkg::Options::="--force-confmiss" --reinstall install apache2
 sudo apt-get purge apache2
 
 sudo apt-get install apache2
+
+service apache2 start
