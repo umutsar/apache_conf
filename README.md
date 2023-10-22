@@ -37,3 +37,18 @@ service apache2 start
 # If you are getting certbot ssl error;
 
 sudo certbot delete --cert-name example.com
+
+# Extra information
+
+*Error documents: /usr/share/apache2/error
+
+*Activation site configuration: a2ensite example.com.conf
+
+*Deactivation site configuration: a2dissite example.conf
+
+
+
+
+
+
+
