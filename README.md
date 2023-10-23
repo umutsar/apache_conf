@@ -28,7 +28,11 @@
 
 *sudo systemctl restart apache2
 
-# ! If you've errors and you can't solve them, execute below steps:
+# ! If you've errors and you can't solve them, execute below steps: (if apache2.service cannot be started)
+
+*execute `a2dissite example.com.conf
+
+(if this commannd doesn't solve look at below options and execute by step by.)
 
 *sudo apt-get -o DPkg::Options::="--force-confmiss" --reinstall install apache2
 
