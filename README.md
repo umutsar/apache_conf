@@ -2,6 +2,10 @@
 
 *Example apache2 domain configuration file with SSL but you need to create SSL before execute this configuration.
 
+! Download rb file and execute 'ruby example.rb' it shoule be setup automaticly.
+ 
+! Most of steps which are below, only help you when it won't setup automaticly.
+
 # Creating domain files.
 
 *sudo mkdir /var/www/example.com
