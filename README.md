@@ -6,7 +6,7 @@
  
 ! Most of steps which are below, only help you when it won't setup automaticly.
 
-# Creating domain files.
+# Creating domain files. (domain-setup.sh file already executes below commands. You don't need to execute also.)
 
 *sudo mkdir /var/www/example.com
 
@@ -16,7 +16,7 @@
 
 *sudo systemctl restart apache2 (or you can use reload instead of restart. This reloads the server without interruption)
 
-# SSL
+# SSL (If you want to use SSL, you need to execute the command below. I haven't included the following codes for those who don't want to use SSL.)
 
 *sudo apt update
 
